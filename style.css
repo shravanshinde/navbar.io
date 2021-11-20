@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.menu{
+    background-color: rgb(202, 201, 202);
+    text-align: center;
+}
+.menu ul{
+    color: purple;
+    display: inline-flex;
+    list-style: none;
+    font-family: 'Caveat', cursive;
+    
+}
+.menu ul li{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Caveat', cursive;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+}
+.active, .menu ul li:hover{
+    background: blanchedalmond;
+
+
+}
+.sub-menu1{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background: blanchedalmond;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;    
+}
+.menu ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+.menu ul li:hover .sub-menu1 ul li a:hover{
+    color: thistle;
+}
+.sub-menu2{
+    display: none;
+}
+.hover-me:hover .sub-menu2{
+    position:absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: blanchedalmond;
+}
+.sub-menu3{
+    display: none;
+}
+.hover-me:hover .sub-menu3{
+    position:absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: blanchedalmond;
+}
+.sub-menu4{
+    display: none;
+}
+.hover-me:hover .sub-menu4{
+    position:absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: blanchedalmond;
+}
+.sub-menu5{
+    display: none;
+}
+.hover-me:hover .sub-menu5{
+    position:absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: blanchedalmond;
+}
